@@ -1,0 +1,7 @@
+                <!-- Durum Mesajı -->
+                <?php if ($status_message && !$user_logged_in): ?>
+                    <div class="status-message">
+                        <p><?php echo $status_message; ?></p>
+                    </div>
+                    <p>Please <a href="login.php">log in</a> to view and edit your account.</p>
+                <?php endif; ?>
