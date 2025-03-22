@@ -1,0 +1,50 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
+/*BASIC STYLE*/
+:root {
+  /* Navbar Text and button colors */
+  --orange: #ed8a34;
+  /* Form colors */
+  --frorange: #dd6300;
+  /* Background color */
+  --bgblack: #1b1c1b;
+  /* Text color */
+  --white: #dbdbdb;
+  /* Hover color */
+  --hover: #ffa64d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+:root {
+  --transparent: rgba(255, 255, 255, 0.637);
+}
+.spacelarge {
+  height: 16dvh;
+  width: none;
+}
+.space {
+  height: 12dvh;
+  width: none;
+}
+.spacesmall {
+  height: 3dvh;
+  width: none;
+}
