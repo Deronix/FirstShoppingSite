@@ -9,6 +9,6 @@ No animations.
 
 ------------------------------------------------------------------------
 
-Put "kullanici_db" in a new database named the same as "kullanici_db".
+Put "kullanici_db" in a new database named the same (kullanici_db).
 
 Put the "GitHub" file into xampp >> htdocs .
